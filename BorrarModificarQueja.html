@@ -1,0 +1,109 @@
+<HTML>
+
+<HEAT>
+    
+<title> Borrar y Modificar Queja </title>  
+      
+</HEAT>
+    
+<body>
+  
+   <style>
+        body {background-color: whitesmoke;}
+    </style>
+
+<HR>
+
+<H1 align="center">Parkingdom</H1>
+  
+<HR>
+    
+    <H2>Consultar Queja</H2>
+    
+<form action=> Titulo de Queja:
+  <input name="Queja" type="text">
+  <br><br>
+</form>
+    
+<form action=> Descripción:
+  <input name="descripción" type="text">
+  <br><br>
+</form>
+  
+<form action=> Fecha Consulta:
+  
+  <input type="date" name="date">
+  <input type="submit"> 
+</form>
+    
+    <HR>
+    
+     <p> </p>   
+        
+    <style>
+table, th, td {
+    border: 1px solid black;
+    border-style: double;
+}
+</style>
+    
+    <table style="width:100%">
+    <th align="center"> Listado de Quejas </th>
+    <table style="width:100%">
+        
+    <tr>
+    <th>Fecha de Queja</th>
+    <th>Titulo de Queja</th> 
+    <th>Descripción</th>
+    <th>Respuesta</th>
+    <th>Estado de la Solicitud</th>
+    <th>Fecha de Respuesta</th>
+    </tr>
+    
+      <tr>
+    <td>13/07/2017</td>
+    <td>Mal servicio</td>
+    <td>No se Genero el Costo</td>
+    <td>Se soluciona problema de Facturación</td>
+    <td>Solucionado</td>
+    <td>16/07/2018</td>  
+  </tr>
+  <tr>
+    <td>16/08/2017</td>
+    <td>Mal servicio</td>
+    <td>No se Genero el Costo</td>
+    <td></td>
+    <td>Proceso</td>
+    <td></td> 
+  </tr>
+  <tr>
+    <td>21/08/2017</td>
+    <td>Mal Servicio</td>
+    <td>Malos tiempos de respuesta</td>
+    <td></td>
+    <td>En Espera</td>
+    <td></td> 
+  </tr>
+    <tr>
+    <td>30/09/2017</td>
+    <td>Mal Servicio</td>
+    <td>Disponibilidad</td>
+    <td>Se obtiene mejor disponibilidad en el parqueadero</td>
+    <td>Solucionado</td>
+    <td>12/10/2017</td> 
+  </tr>
+</table>
+    
+ </HR>
+    
+    <p align="left">
+    <button type="submit" value="Submit" >Generar Respuesta</button>
+    <button type="submit" value="Submit" >Modificar</button>
+    <button type="submit" value="Submit" >Elinimar</button>
+    </p>
+    
+    <button onclick="goBack()">Salir</button>
+    
+</body>
+
+</HTML>
