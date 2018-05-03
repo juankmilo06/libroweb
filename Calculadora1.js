@@ -7,7 +7,7 @@ function suma(){
     resultado=parseInt(resultado);
     resultado= numero1+ numero2;
     
-    resultado= document.getElementById('cajaTexto3').value;
+    resultado= document.getElementById('cajaTexto3').value = resultado;
     return false;
 }
 function resta(){
@@ -19,7 +19,7 @@ function resta(){
     resultado=parseInt(resultado);
     resultado= numero1 - numero2;
     
-    resultado= document.getElementById('cajaTexto3').value;
+    resultado= document.getElementById('cajaTexto3').value = resultado;
     return false;
 }
 function multiplicacion(){
@@ -31,7 +31,7 @@ function multiplicacion(){
     resultado=parseInt(resultado);
     resultado= numero1 * numero2;
     
-    resultado= document.getElementById('cajaTexto3').value;
+    resultado= document.getElementById('cajaTexto3').value = resultado;
     return false;
 }
 function division(){
@@ -41,9 +41,9 @@ function division(){
     numero1=parseInt(numero1);
     numero2=parseInt(numero2);
     resultado=parseInt(resultado);
-    resultado= numero1/ numero2;
+    resultado= numero1 / numero2;
     
-    resultado= document.getElementById('cajaTexto3').value;
+    resultado= document.getElementById('cajaTexto3').value = resultado;
     return false;
     
     if(numero1==0){
